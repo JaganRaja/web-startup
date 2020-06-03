@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<style>
+
+* {
+box-sizing: border-box;
+}
+
+.img-container {
+ float: left;
+ width: 33.33%;
+ padding: 5px;
+
+}
+
+.cleaarfix::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Image side by side</h2>
+
+<div class=".clearfix">
+
+  <div class="img-container">
+  <img src="float_1.jpg" alt="float1" style="width:100%;">
+  </div>
+  <div class="img-container">
+  <img src="float_2.jpg" alt="float1" style="width:100%;">
+  </div>
+  <div class="img-container">
+  <img src="float_3.jpg" alt="float1" style="width:100%;">
+  </div>
+
+</div>
+
+
+</body>
+
+
+
+</html>
+

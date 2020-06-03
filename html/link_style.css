@@ -1,0 +1,29 @@
+a:link{
+color: green;
+backgroung-color: transparent;
+text-decoration: none;
+background-color: red;
+padding: 30px;
+}
+
+a:visited{
+color:pink;
+background-color:transparent;
+text-decoration:none;
+}
+
+a:hover{
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active{
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+}
+
+body{
+background-image: url('IMAG0176.jpg')
+}

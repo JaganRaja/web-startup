@@ -1,0 +1,74 @@
+jk
+
+npm install -g firebase-tools
+npm install -g firebase
+firebase --version
+
+google - 
+login to firebase console
+Create a project
+
+cmd-
+firebase login (do other steps in browser)
+
+
+cmd-
+
+go to the folder where public folder resides
+
+cmd-
+firebase init
+y
+select the hosting and click the space button and enter to continue
+
+use an existing project
+
+public
+y
+firebase deploy
+
+
+
+
+GIT
+
+git init
+
+git add origin master https:....
+
+git add .
+
+git status
+
+git push -u origin master
+
+
+
+
+or create a new repository on the command line
+
+echo "# web-startup" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JaganRaja/web-startup.git
+git push -u origin master
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/JaganRaja/web-startup.git
+git push -u origin master
+
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+
+
+
+
+
+
+
